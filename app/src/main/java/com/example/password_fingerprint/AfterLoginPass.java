@@ -29,7 +29,7 @@ public class AfterLoginPass extends AppCompatActivity {
         buttonShow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(AfterLoginPass.this, password.class);
+                Intent intent = new Intent(AfterLoginPass.this, ShowNote.class);
                 startActivity(intent);
 
             }
